@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .flip-card {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:flex-start;
+    
+    background-color: #757280;
+    width: 325px;
+    height: 250px;
+    border: 1px solid #0d0d0d;
+  }
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding-left: 40px;
+  padding-top: 25px;
+}
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+ 
+  .flip-card-front {
+    background-color:#0f8f15;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #0f8f15;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header><h1>The Rule Cards</h1>
+        </header>
+        
+        <main>
+<div class="row">
+    <div class="column">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="tackle.jpg" alt="push" style="width:325px; height:250px;">
+                </div>
+
+                  <div class="flip-card-back">
+                    <h1>Dont tackle a nonball holder</h1>
+                    <p>-tackling someone without the ball will be a penality</p>
+                    <br>
+                    <p>-this is due to possible injurys and "obstruction"
+                    </p>
+                  
+                </div>
+              </div>
+            
+            </div>
+            </div>
+
+
+            <div class="row">
+                <div class="column">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="ruck.jpg" alt="line" style="width:325px; height:250px;">
+                </div>
+                  <div class="flip-card-back">
+                    <h1>Rucking line</h1>
+                    <p>-The person with the ball down has a line to his to toes</p>
+                    <br>
+        <p>-You can't run around that imaginary line, you must break through it </p>
+
+        
+                </div>
+              </div> 
+              </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="passing.jpg" alt="ball" style="width:325px; height:250px;">
+                </div>
+                  <div class="flip-card-back">
+                    <h1>Passing</h1>
+                    <p>-The person with the ball can only pass behind or to their side</p>
+                    <br>
+                    <p>-Throwing the ball infront at any angle will cause a penalty</p>
+            
+                 
+                </div>
+              </div>  
+              </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column">
+              
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="knock.jpg"alt="drop" style="width:325px; height:250px;">
+                </div>
+                  <div class="flip-card-back">
+                    <h1>Knocking</h1>
+                    <p>-A knock is when a person receives the ball but drops infront of them</p>
+                    <br>
+                    <p>-This action will lead to an automatic ball to the other team</p>
+            
+                
+                </div>
+              </div>  
+              </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="helm.jpg" alt="head" style="width:325px; height:250px;">
+                </div>
+                  <div class="flip-card-back">
+                    <h1>Gear</h1>
+                    <p>-The only gear allowed is a soft headmat and smaller/thin shoulder pad</p>
+                    <br>
+                            <p>-This makes tackling and being hit more involving</p>
+                    
+                  
+                </div>
+              </div>
+
+              </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="column">
+                              <div class="flip-card">
+                                <div class="flip-card-inner">
+                                  <div class="flip-card-front">
+                                    <img src="obstuction.jpg" alt="way" style="width:325px; height:250px;">
+                                </div>
+                                  <div class="flip-card-back">
+                                    <h1>Obstruction</h1>
+                                    <p>-People can not be in the way of the ball/ player with ball</p>
+                                    <br>
+                        <p>-This isn't basketball and you will end up with a penality </p>
+                    </div>
+                </div>
+                </div>
+                              </div>
+  
+  
+
+                        <div class="row">
+                            <div class="column">
+                      <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="one.jpg" alt="letgo" style="width:325px; height:250px;">
+                        </div>
+                          <div class="flip-card-back">
+                            <h1>One second rule</h1>
+                            <p>-The person who is tackled must let go of the ball within 1 second</p>
+        <br>
+                            <p>-purposfully fumble and hurry to put the ball to your or you will get a penality</p>
+                    
+                        </div>
+                        </div>
+                      </div>  
+                      </div>
+                      <div class="row">
+                        <div class="column">
+              
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="reff.jpg"alt="man" style="width:325px; height:250px;">
+                </div>
+                  <div class="flip-card-back">
+                    <h1>Respect the Reff</h1>
+                    <p>-1 captain for both teams and only that player is able to speak to the reff</p>
+                    <br>
+                    <p>-A penality will be given if not followed</p>
+            
+                        
+
+    </main>
+    <footer>Copywrite Dayton Edwards 2022 - Enjoy!!</footer>
+</body>
+</html>
